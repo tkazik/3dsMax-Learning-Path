@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1b", "Lesson1b.vcxproj", "{6671F0BA-6FB8-4F35-8392-0676D05113A8}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1a", "Lesson1a.vcxproj", "{6671F0BA-6FB8-4F35-8392-0676D05113A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,15 +14,15 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Debug|x64.ActiveCfg = Debug|x64
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Debug|x64.Build.0 = Debug|x64
-		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Debug|x64.Deploy.0 = Debug|x64
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Hybrid|x64.ActiveCfg = Hybrid|x64
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Hybrid|x64.Build.0 = Hybrid|x64
-		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Hybrid|x64.Deploy.0 = Hybrid|x64
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Release|x64.ActiveCfg = Release|x64
 		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Release|x64.Build.0 = Release|x64
-		{6671F0BA-6FB8-4F35-8392-0676D05113A8}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E70A6F-720A-44A2-B06C-ED29D0364AC0}
 	EndGlobalSection
 EndGlobal

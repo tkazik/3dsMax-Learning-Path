@@ -7,6 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
+#define IDC_NODENAME 0x1001
 #include "afxres.h"
 
 /////////////////////////////////////////////////////////////////////////////
@@ -32,7 +33,7 @@ BEGIN
     CONTROL         "",IDC_EDIT,"CustEdit",WS_TABSTOP,29,114,35,10
     CONTROL         "",IDC_SPIN,"SpinnerControl",0x0,65,114,7,10
     LTEXT           "Spinner Cust Control:",IDC_STATIC,20,102,67,8
-    LTEXT           "Unitialized",IDC_NODENAME,23,48,32,8
+    LTEXT           "uninit",IDC_NODENAME,38,66,18,8
 END
 
 
@@ -68,6 +69,7 @@ END
 
 2 TEXTINCLUDE 
 BEGIN
+    "#define IDC_NODENAME 0x1001\r\n"
     "#include ""afxres.h""\r\n"
     "\0"
 END
@@ -79,6 +81,17 @@ BEGIN
 END
 
 #endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PANEL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
 
 
 /////////////////////////////////////////////////////////////////////////////

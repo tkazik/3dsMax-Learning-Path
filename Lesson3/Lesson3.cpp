@@ -16,6 +16,7 @@
 #include "Lesson3.h"
 
 #define SampleRef_CLASS_ID	Class_ID(0xa940aed4, 0x6046c0cd)
+#define IDC_NODENAME 0x1001
 
 
 class SampleRef : public UtilityObj , public ReferenceMaker
@@ -209,7 +210,7 @@ void SampleRef::SetText(const MSTR& s)
 	// MSTR is the main string class in 3ds Max SDK.
 	// hPanel is a data member pointing to the rollout page and
 	// IDC_NODENAME is the name of the static text field in that rollout page.
-	SetDlgItemText(hPanel, IDC_NODENAME, s.data());	
+	SetDlgItemText(hPanel, IDC_NODENAME, s.data());
 }
 
 void SampleRef::Init(HWND /*handle*/)
